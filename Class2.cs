@@ -8,8 +8,9 @@ namespace FirstProject
 {
     internal class Class2
     {
-        private int name;
-        private int age;
-            private int age2;       
+        public int name { get; set; }
+        public int school { get; set; }
+        public int kitchen { get; set; }
+        public int wear { get; set; }
     }
 }
