@@ -12,5 +12,10 @@ namespace FirstProject
         public int school { get; set; }
         public int kitchen { get; set; }
         public int wear { get; set; }
+
+        public int ReturnSomeThings()
+        {
+            return name + school + kitchen + wear;
+        }
     }
 }
